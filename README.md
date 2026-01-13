@@ -40,13 +40,21 @@ Go（標準ライブラリのみ）で作成した、
 go-curd/
 
 ├── main.go # サーバー起動・ルーティング
+
 ├── todo.go # Todo のデータ管理・CRUD 処理
+
 ├── frontend/
+
 │ ├── index.html # 画面（HTML）
+
 │ ├── style.css # スタイル（CSS）
+
 │ └── script.js # フロントのロジック（JavaScript）
+
 ├── todos.json # データ保存用（※ Git 管理外）
+
 ├── .gitignore
+
 └── README.md
 
 ---
