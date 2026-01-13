@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>やることリスト</h1>
+
+  <input type="text" id="new-todo" placeholder="新しいTodo">
+  <button onclick="addTodo()">追加</button>
+  <button onclick="deleteSelected()">削除</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="date-column">追加日</th>
+        <th class="done-date-column">完了日</th>
+        <th class="delete-column">削除</th>
+        <th class="complete-column">完了</th>
+        <th class="title-column">タイトル</th>
+      </tr>
+    </thead>
+    <tbody id="todo-list"></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# 実行ファイル
+*.exe
+*.out
+*.app
+
+# データファイル（個人データ）
+todos.json
