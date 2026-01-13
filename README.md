@@ -68,7 +68,7 @@ git clone https://github.com/hamanosalto/go-curd.git
 cd go-curd
 
 2️⃣ サーバー起動
-go run .
+go run main.go crud.go
 
 3️⃣ ブラウザでアクセス
 http://localhost:8080
